@@ -1,0 +1,141 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/12/Free-Beautiful-Landscape-Image.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    height: 450px;
+    width: 25%;
+    background-image:linear-gradient(260deg,white,grey);
+    border-radius: 5px;
+    /* background: transparent; */
+    
+    opacity: 0.9;
+}
+header{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    height: 60px;
+    width: 100%;
+    /* background-color: red; */
+}
+.input-section{
+    height: 50px;
+    width: 70%;
+    padding-left: 10%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    color:black;
+    font-weight: 300;
+    background-color: white;
+    height: 30px;
+    width: 100%;
+   border-radius: 5px;
+   text-indent: 6px;
+   letter-spacing: 1.5px;
+    outline: none;
+    border: none;
+}
+.search-section{
+    height: 50px;
+    width: 20%;
+    /* background-color: yellow; */
+    display: flex;
+    padding-left: 6px;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.climate-section{
+    height: 120px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.climate-image{
+    width: 60%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.data{
+    height: 100px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3px;
+}
+
+.humidity{
+    height: 60px;
+    width: 30%;
+}
+.climate-data{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+    /* background-color: coral; */
+    /* padding: 0px 30px; */
+}
+.wind-section{
+    padding-top: 15px;
+    width: 50%;
+    height: 100%;
+    /* background-color: darkslategray; */
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    row-gap: 8px;
+    /* align-items: center; */
+}
+.humidity-section{
+    padding-top: 15px;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(38, 195, 35); */
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.image{
+    width: 100%;
+    height: 120%;
+}
+i:hover{
+    cursor: pointer;
+}
+.error{
+    color: red;
+    padding-left: 32px;
+    display: none;
+    /* display: none; */
+}
